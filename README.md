@@ -6,15 +6,15 @@ This project is an experiment involving evolving cartesian genetic programs to e
 
 For those interested in training cartesian genetic programs, the chessga.cpp can be compiled with "g++ chessga.cpp -o chessga --std=c++17 -O4". Every 100 generations, a trained cartesian program is saved in a user specified text file. Additionally, in the save.txt file is a somewhat evolved example cartesian program that can be loaded for further evolution. Every 100 generations, the current matches are printed to the console with positions displayed as follows:
 
-eval :: 0.03125
- . . . ♔ . . . ♖
- . ♙ . . . ♙ ♙ .
- . . . ♖ . . . .
- ♙ . ♜ . ♙ ♗ ♟ ♙
- ♕ . . . . . . ♟
- ♝ . . ♙ . . . .
- ♚ . . ♟ . ♛ . .
- . ♞ . . . ♝ ♞ .
+eval :: 0.03125  
+ . . . ♔ . . . ♖  
+ . ♙ . . . ♙ ♙ .  
+ . . . ♖ . . . .  
+ ♙ . ♜ . ♙ ♗ ♟ ♙  
+ ♕ . . . . . . ♟  
+ ♝ . . ♙ . . . .  
+ ♚ . . ♟ . ♛ . .  
+ . ♞ . . . ♝ ♞ .  
  
  Different board representations and cartesian genetic program functions should probably be experimented with. Currently, the cartesian program is fed 25 8x8 board states corresponding to the position. 
 
